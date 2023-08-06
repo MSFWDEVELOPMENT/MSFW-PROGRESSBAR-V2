@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@350&display=swap');
+
+html {
+    overflow: hidden;
+       font-family: 'Oswald', sans-serif; 
+   font-weight: 450;
+}
+
+body {
+    background: transparent !important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    border-radius: 85vh;
+}
+
+.container {
+    display: block;
+    position: relative;
+    top: 76vh;
+    width: auto;
+    opacity: 0;
+    border-radius: 85vh;
+}
+
+#canvas {
+    display: block;
+    margin: 50px auto;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 85vh;
+}
+
+.icon {
+    height: 0.1vh;
+    width: auto;
+    display: block;
+    position: absolute;
+    left: -0.8vh;
+    right: -1vh;
+    top: 2.3vh;
+    margin: 0 auto;
+    border-radius: 85vh;
+       filter: drop-shadow(2px 2px 25px  #fff);
+       animation: rotation 5s ease-in-out infinite;
+  
+
+    }
+    @keyframes rotation{
+      0%{
+        transform: rotate(0deg);
+      }
+      100%{
+        transform: rotate(960deg);
+      }
+    
+    }
+    
+
+
+.icon > i {
+    height: 1.5vh;
+    width: auto;
+    display: block;
+    position: relative;
+    left: 0vh;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 3.49vh;
+    border-radius: 85vh;
+    filter: drop-shadow(8px 2px 25px  #fff);
+    fill-opacity: 0.6;
+    fill: rgba(0, 0, 0, 1);
+    stroke: rgba(0,0,0,0.3);
+
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0,0,0,.5);
+    animation: rotation 5s normal infinite;
+  
+
+}
+@keyframes rotation{
+  0%{
+    transform: rotate(50deg);
+  }
+  0%{
+    transform: rotate(0deg);
+  }
+
+}
+
+
+.label {
+    font-family: 'Oswald', sans-serif; 
+   font-weight: 6500;
+    text-transform: uppercase;
+    height: 5.5vh;
+    width: auto;
+    display: block;
+    position: absolute;
+    left: 2.1vh;
+    right: 1vh;
+    margin: 0 auto;
+    text-align: center;
+    top: 7.8vh;
+    font-size: 1.8vh;
+    border-radius: 80vh;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0,0,0,.5);
+    filter: drop-shadow(8px 2px 25px  #fff);
+    
+}
