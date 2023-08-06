@@ -13,7 +13,6 @@ body {
     overflow: hidden;
     width: auto;
     height: auto;
-    border-radius: 85vh;
 }
 
 .container {
@@ -22,7 +21,6 @@ body {
     top: 76vh;
     width: auto;
     opacity: 0;
-    border-radius: 85vh;
 }
 
 #canvas {
@@ -30,7 +28,6 @@ body {
     margin: 50px auto;
     width: 8vh;
     height: 8vh;
-    border-radius: 85vh;
 }
 
 .icon {
@@ -44,21 +41,7 @@ body {
     margin: 0 auto;
     border-radius: 85vh;
        filter: drop-shadow(2px 2px 25px  #fff);
-       animation: rotation 5s ease-in-out infinite;
-  
-
-    }
-    @keyframes rotation{
-      0%{
-        transform: rotate(0deg);
-      }
-      100%{
-        transform: rotate(960deg);
-      }
-    
-    }
-    
-
+}
 
 .icon > i {
     height: 1.5vh;
@@ -78,20 +61,7 @@ body {
     stroke: rgba(0,0,0,0.3);
 
     text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0,0,0,.5);
-    animation: rotation 5s normal infinite;
-  
-
 }
-@keyframes rotation{
-  0%{
-    transform: rotate(50deg);
-  }
-  0%{
-    transform: rotate(0deg);
-  }
-
-}
-
 
 .label {
     font-family: 'Oswald', sans-serif; 

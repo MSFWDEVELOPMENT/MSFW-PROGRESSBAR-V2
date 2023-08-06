@@ -50,14 +50,14 @@ function init() {
     ctx.beginPath();
     ctx.strokeStyle = color;
     ctx.lineCap = 'round';
-    ctx.lineWidth = 12;
+    ctx.lineWidth = 6;
     ctx.arc(W / 2, H / 2, 100, 0 - 90 * Math.PI / 180, radians - 90 * Math.PI / 180, false);
     ctx.stroke();
 }
 
 let addition = 0
 function draw(data) {
-    color = "#FFFFFF";   
+    color = "white"; 
     ctx.clearRect(0,0,W,H);
     addition = 0;
     degrees = 0;
