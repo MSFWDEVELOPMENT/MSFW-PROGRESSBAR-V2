@@ -1,5 +1,3 @@
-![image](https://github.com/GodsDevelopment69/GD-PROGRESSBAR-V2/assets/116272690/8e2ef9fa-d815-4938-969a-94af4b44b7f3)# GD-PROGRESSBAR-V2
-
 ## steps to install GD-PROGRESSBAR-V2
 
  # step 1 - drag and drop this script in your resources/standalone folder and delete the old progressbar
